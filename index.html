@@ -4,58 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- Логотип -->
-    <header>
-      <nav>
-        <a href="">WebStudio</a>
-        <ul>
-          <li><a href="">Студія</a></li>
-          <li><a href="">Потртфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+    <!-- Шапка сайту-->
+    <header class="header">
+      <nav class="navigtion">
+        <a class="link logo-web" href=""
+          >Web<span class="logo-web-header">Studio</span></a
+        >
+        <ul class="list">
+          <li class="item">
+            <a class="link navigtion-stydio" href="./portfolio.html">Студія</a>
+          </li>
+          <li class="item">
+            <a class="link navigtion-portfolio" href="">Портфоліо</a>
+          </li>
+          <li class="item">
+            <a class="link navigtion-kontakt" href="">Контакти</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+380961111111</a></li>
+      <ul class="list">
+        <li class="item">
+          <a class="link navigtion-mail" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="item">
+          <a class="link navigtion-tel" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
 
     <!-- секція 1 -->
     <main>
-      <section>
+      <section class="hero">
         <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button>Замовити послугу</button>
+        <button class="btn">Замовити послугу</button>
       </section>
 
       <!-- секція 2 -->
       <section>
         <h2 hidden>заголовок</h2>
-        <ul>
-          <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+        <ul class="list">
+          <li class="item">
+            <h3 class="article-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="article-list">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+          <li class="item">
+            <h3 class="article-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="article-list">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
+          <li class="item">
+            <h3 class="article-title">ПЛАНУВАННЯ</h3>
+            <p class="article-list">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+          <li class="item">
+            <h3 class="article-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="article-list">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -66,9 +90,9 @@
       <!-- секція 3 -->
 
       <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
-          <li>
+        <h2 class="rozrobku">Чим ми займаємося</h2>
+        <ul class="list">
+          <li class="item">
             <img
               src="img/img.jpg"
               alt="програмування-по-схемі"
@@ -76,7 +100,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="item">
             <img
               src="img/box2.jpg"
               alt="розробка додатка для телефону"
@@ -84,7 +108,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="item">
             <img
               src="img/box3.jpg"
               alt="діаграма кольорів"
@@ -97,65 +121,76 @@
 
       <!-- секція 4 -->
       <section>
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
+        <h2 class="Comanda">Наша команда</h2>
+        <ul class="list">
+          <li class="item">
             <img
               src="img/nashi-rozrobnuku/img-1.jpg"
               alt="розробник чоловік"
               width="270"
               height="260"
             />
-            <h3>Ігор Дем'яненко</h3>
-            <p>Product Designer</p>
+            <h3 class="rozronuku">Ігор Дем'яненко</h3>
+            <p class="rozronuku-text">Product Designer</p>
           </li>
-          <li>
+          <li class="item">
             <img
               src="img/nashi-rozrobnuku/img-2.jpg"
               alt="розробник жінка"
               width="270"
               height="260"
             />
-            <h3>Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
+            <h3 class="rozronuku">Ольга Рєпіна</h3>
+            <p class="rozronuku-text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="item">
             <img
               src="img/nashi-rozrobnuku/img-3.jpg"
               alt="розробник чоловік"
               width="270"
               height="260"
             />
-            <h3>Микола Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="rozronuku">Микола Тарасов</h3>
+            <p class="rozronuku-text">Marketing</p>
           </li>
-          <li>
+          <li class="item">
             <img
               src="img/nashi-rozrobnuku/img-4.jpg"
               alt="розробник чоловік"
               width="270"
               height="260"
             />
-            <h3>Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+            <h3 class="rozronuku">Михайло Єрмаков</h3>
+            <p class="rozronuku-text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="">WebStudio</a>
+    <footer class="footer">
+      <a class="link logo-web" href="./index.html"
+        >Web<span class="logo-web-foter">Studio</span></a
+      >
       <address>
-        <ul>
-          <li>
+        <ul class="list">
+          <li class="item">
             <a
+              class="link address-foter"
               href="https://maps.app.goo.gl/jD6x1VwmAKyLnh4F9"
               target="_blank"
               rel="noopener noferrer"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+380961111111</a></li>
+          <li class="item">
+            <a class="link meil-foter" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a class="link tel-foter" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
