@@ -1,5 +1,5 @@
 body {
-  font-family: "roboto regular" "raleway" "sans-serif";
+  font-family: "roboto " "sans-serif";
 
   text-decoration: none;
 }
@@ -53,7 +53,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #757575;
 }
 
 .navigtion-tel {
@@ -66,7 +66,7 @@ body {
 
 /* Hero */
 
-.hero {
+.hero-list {
   background-color: #2f303a;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -161,6 +161,25 @@ link:focus {
 
 /* ////Сторінка 2 Портфоліо//// */
 
+.btn-portfolio-usi {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2196f3;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-portfolio-usi:hover,
+.btn-portfolio-usi:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
 .btn-portfolio {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -170,12 +189,13 @@ link:focus {
   text-align: center;
   color: #212121;
   cursor: pointer;
+  border: none;
 }
 
 .btn-portfolio:hover,
 .btn-portfolio:focus {
-  color: #fff;
-  background-color: #2196f3;
+  color: #212121;
+  background-color: #f5f4fa;
 }
 
 .content-title {
@@ -226,4 +246,8 @@ link:focus {
   line-height: 1.71429;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.item {
+  list-style-type: none;
 }
